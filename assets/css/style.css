@@ -222,10 +222,15 @@ ul{
     display: flex;
 }
 
-.col-sm img {
+.hoverImg img {
     transition: 0.3s ease-in-out;
 }
 
-.col-sm:hover img {
+.hoverImg:hover img {
     filter: sepia(100%) hue-rotate(-10deg) brightness(80%);
+}
+
+.ulFooterPage a {
+    color: #F5F5F5;
+    text-decoration: none;
 }
